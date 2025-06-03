@@ -20,14 +20,14 @@ export default function Auth(){
     function notify(mode:"success"|"error",msg:string):void{
         if(mode=="success"){
             toast.success(msg,{
-                autoClose:3000,
+                autoClose:2500,
                 position:"top-center",
                 pauseOnHover:true
             })
         }
         else{
             toast.error(msg,{
-                autoClose:3000,
+                autoClose:2500,
                 position:"top-center",
                 pauseOnHover:true
             })
